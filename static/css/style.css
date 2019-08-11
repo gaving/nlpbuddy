@@ -25,7 +25,7 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 1rem;
   color: #222;
   background-color: #f8f8f8;
@@ -33,7 +33,6 @@ body {
 
 header {
   position: relative;
-  line-height: 4rem;
   margin: 0;
   padding: 0 1.6rem;
   color: #ddd;
@@ -109,7 +108,6 @@ header .logo h1 a {
   color: #fff;
 }
 
-
 /* header .logo h1 a:hover {
   color: #ccc;
 } */
@@ -126,12 +124,16 @@ header .logo h1 a {
   }
 }
 
-header .lang-selection, header .main-nav {
+header .lang-selection,
+header .main-nav {
   float: right;
   font-weight: 500;
 }
 
-header .lang-selection li, header .lang-selection a, header .main-nav li, header .main-nav a {
+header .lang-selection li,
+header .lang-selection a,
+header .main-nav li,
+header .main-nav a {
   padding: 0 0.4rem;
 }
 
@@ -150,7 +152,8 @@ header .lang-selection ul li {
   display: inline-block;
 }
 
-header .lang-selection ul li:hover a, header .lang-selection ul li.current a {
+header .lang-selection ul li:hover a,
+header .lang-selection ul li.current a {
   color: #1e90ff;
 }
 
@@ -219,12 +222,14 @@ main {
   padding: 0.8rem 0.8rem 2.4rem;
 }
 
-.left-side, .right-side {
+.left-side,
+.right-side {
   position: relative;
   float: left;
 }
 
-.left-side .side-inner, .right-side .side-inner {
+.left-side .side-inner,
+.right-side .side-inner {
   position: relative;
   width: 100%;
   display: inline-block;
@@ -258,7 +263,8 @@ main {
   margin: 0 0 0.8rem;
 }
 
-.text-source-box .select-static-text, .text-source-box .select-custom-text {
+.text-source-box .select-static-text,
+.text-source-box .select-custom-text {
   position: relative;
   width: 49%;
   -webkit-border-radius: 1px;
@@ -268,7 +274,10 @@ main {
   border-radius: 1px;
 }
 
-.text-source-box .select-static-text select, .text-source-box .select-static-text button, .text-source-box .select-custom-text select, .text-source-box .select-custom-text button {
+.text-source-box .select-static-text select,
+.text-source-box .select-static-text button,
+.text-source-box .select-custom-text select,
+.text-source-box .select-custom-text button {
   display: inline-block;
   padding: 0.8rem;
   min-width: 100%;
@@ -357,7 +366,7 @@ main {
   line-height: 1;
   color: #fff;
   border: 0;
-  background: #1E90FF;
+  background: #1e90ff;
   cursor: pointer;
   -webkit-border-radius: 1px;
   -moz-border-radius: 1px;
@@ -374,7 +383,8 @@ main {
 }
 
 @media screen and (min-width: 60rem) {
-  .results-box.various, .results-box.keywords {
+  .results-box.various,
+  .results-box.keywords {
     width: 50%;
   }
 }
@@ -392,7 +402,8 @@ main {
   border-radius: 1px;
 }
 
-.results-box .rb-title, .results-box .rb-content {
+.results-box .rb-title,
+.results-box .rb-content {
   position: relative;
   display: block;
 }
@@ -402,7 +413,8 @@ main {
   border-bottom: 1px solid #ddd;
 }
 
-.results-box .rb-title h2, .results-box .rb-title h3 {
+.results-box .rb-title h2,
+.results-box .rb-title h3 {
   display: block;
   font-weight: 600;
   margin: 0;
@@ -417,14 +429,20 @@ main {
   font-size: 0.9375em;
 }
 
-.results-box .rb-title .box-icon>span, .results-box .rb-title .about-icon>span, .results-box .rb-title .visualize-btn>span, .results-box .rb-title .toggle-option>span {
+.results-box .rb-title .box-icon > span,
+.results-box .rb-title .about-icon > span,
+.results-box .rb-title .visualize-btn > span,
+.results-box .rb-title .toggle-option > span {
   width: 100%;
   height: 100%;
   display: table;
   text-align: center;
 }
 
-.results-box .rb-title .box-icon>span>span, .results-box .rb-title .about-icon>span>span, .results-box .rb-title .visualize-btn>span>span, .results-box .rb-title .toggle-option>span>span {
+.results-box .rb-title .box-icon > span > span,
+.results-box .rb-title .about-icon > span > span,
+.results-box .rb-title .visualize-btn > span > span,
+.results-box .rb-title .toggle-option > span > span {
   display: table-cell;
   vertical-align: middle;
 }
@@ -461,7 +479,8 @@ main {
   margin: 0 0.6rem;
 }
 
-.results-box .rb-title .box-icon, .results-box .rb-title .about-icon {
+.results-box .rb-title .box-icon,
+.results-box .rb-title .about-icon {
   position: absolute;
   top: 0;
   left: 0;
@@ -479,7 +498,8 @@ main {
   } */
 }
 
-.results-box .rb-title .box-icon i, .results-box .rb-title .about-icon i {
+.results-box .rb-title .box-icon i,
+.results-box .rb-title .about-icon i {
   vertical-align: middle;
   line-height: 1;
   font-size: 1.125em;
@@ -522,7 +542,7 @@ main {
 .results-box:not(.text-results) .rb-content span {
   position: relative;
   display: inline-block;
-  padding: .2rem .4rem .3rem;
+  padding: 0.2rem 0.4rem 0.3rem;
   margin-right: 5px;
   margin-top: 5px;
   line-height: 1;
@@ -539,28 +559,33 @@ main {
   text-shadow: 1px 1px rgba(0, 0, 0, 0.05);
 }
 
-.results-box:not(.text-results) .rb-content ul, .results-box:not(.text-results) .rb-content ol {
+.results-box:not(.text-results) .rb-content ul,
+.results-box:not(.text-results) .rb-content ol {
   margin: 0;
 }
 
-.results-box:not(.text-results) .rb-content ul li, .results-box:not(.text-results) .rb-content ol li {
+.results-box:not(.text-results) .rb-content ul li,
+.results-box:not(.text-results) .rb-content ol li {
   padding: 0.4rem 0 0.8rem;
   border-bottom: 1px solid #eee;
   margin-bottom: 0.4rem;
 }
 
-.results-box:not(.text-results) .rb-content ul li:last-child, .results-box:not(.text-results) .rb-content ol li:last-child {
+.results-box:not(.text-results) .rb-content ul li:last-child,
+.results-box:not(.text-results) .rb-content ol li:last-child {
   border: 0;
   padding-bottom: 0.4rem;
 }
 
-.results-box:not(.text-results) .rb-content ul li label, .results-box:not(.text-results) .rb-content ol li label {
+.results-box:not(.text-results) .rb-content ul li label,
+.results-box:not(.text-results) .rb-content ol li label {
   font-weight: bold;
   line-height: 1.5;
   margin-right: 10px;
 }
 
-.results-box:not(.text-results) .rb-content ul li div, .results-box:not(.text-results) .rb-content ol li div {
+.results-box:not(.text-results) .rb-content ul li div,
+.results-box:not(.text-results) .rb-content ol li div {
   position: relative;
   display: inline-block;
   width: 100%;
@@ -658,19 +683,20 @@ main {
   z-index: +1;
 }
 
-.loader-container>div {
+.loader-container > div {
   display: table;
   text-align: center;
   width: 100%;
   height: 100%;
 }
 
-.loader-container>div>div {
+.loader-container > div > div {
   display: table-cell;
   vertical-align: middle;
 }
 
-.loader, .loader:after {
+.loader,
+.loader:after {
   border-radius: 50%;
   width: 8em;
   height: 8em;
@@ -728,7 +754,8 @@ body.has-results .results-box.text-results {
   display: none;
 }
 
-.select-custom-text, .select-static-text {
+.select-custom-text,
+.select-static-text {
   border-width: 1px;
   border-style: solid;
 }
@@ -739,11 +766,14 @@ body.has-results .results-box.text-results {
   background-color: #fff;
 }
 
-.select-custom-text button, .select-custom-text select {
+.select-custom-text button,
+.select-custom-text select {
   color: initial;
 }
 
-.select-custom-text:hover, .select-custom-text:hover button, .select-custom-text:hover select {
+.select-custom-text:hover,
+.select-custom-text:hover button,
+.select-custom-text:hover select {
   color: #1e90ff;
 }
 
@@ -753,7 +783,11 @@ body.has-results .results-box.text-results {
   background-color: #1e90ff;
 }
 
-.select-static-text button, .select-static-text select, .select-static-text:hover, .select-static-text:hover button, .select-static-text:hover select {
+.select-static-text button,
+.select-static-text select,
+.select-static-text:hover,
+.select-static-text:hover button,
+.select-static-text:hover select {
   color: #fff;
 }
 
@@ -775,11 +809,14 @@ body.with-custom-text-editor .select-static-text {
   background-color: #fff;
 }
 
-body.with-custom-text-editor .select-static-text button, body.with-custom-text-editor .select-static-text select {
+body.with-custom-text-editor .select-static-text button,
+body.with-custom-text-editor .select-static-text select {
   color: initial;
 }
 
-body.with-custom-text-editor .select-static-text:hover, body.with-custom-text-editor .select-static-text:hover button, body.with-custom-text-editor .select-static-text:hover select {
+body.with-custom-text-editor .select-static-text:hover,
+body.with-custom-text-editor .select-static-text:hover button,
+body.with-custom-text-editor .select-static-text:hover select {
   color: #1e90ff;
 }
 
@@ -789,7 +826,11 @@ body.with-custom-text-editor .select-custom-text {
   background-color: #1e90ff;
 }
 
-body.with-custom-text-editor .select-custom-text button, body.with-custom-text-editor .select-custom-text select, body.with-custom-text-editor .select-custom-text:hover, body.with-custom-text-editor .select-custom-text:hover button, body.with-custom-text-editor .select-custom-text:hover select {
+body.with-custom-text-editor .select-custom-text button,
+body.with-custom-text-editor .select-custom-text select,
+body.with-custom-text-editor .select-custom-text:hover,
+body.with-custom-text-editor .select-custom-text:hover button,
+body.with-custom-text-editor .select-custom-text:hover select {
   color: #fff;
 }
 
@@ -881,7 +922,7 @@ body.is-loading .loader-container {
   margin-right: -6.25rem;
 }
 
-*:hover>.tooltip-container {
+*:hover > .tooltip-container {
   display: inline-block;
 }
 
@@ -992,7 +1033,7 @@ body.is-loading .loader-container {
   z-index: 1;
   text-align: center;
   line-height: 50px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
   text-transform: uppercase;
 }
@@ -1016,10 +1057,10 @@ body.is-loading .loader-container {
   position: absolute;
   transform-origin: center bottom 0px;
   transform: matrix3d(1, 0, 0, 0, 0, 0, -1, -0.003, 0, 1, 0, 0, 0, 0, 0, 1);
-  -webkit-transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995);
-  -moz-transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995);
-  -o-transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995);
-  transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995);
+  -webkit-transition: all 500ms cubic-bezier(0.97, 0, 0.395, 0.995);
+  -moz-transition: all 500ms cubic-bezier(0.97, 0, 0.395, 0.995);
+  -o-transition: all 500ms cubic-bezier(0.97, 0, 0.395, 0.995);
+  transition: all 500ms cubic-bezier(0.97, 0, 0.395, 0.995);
   /* custom */
 }
 
@@ -1033,10 +1074,10 @@ body.is-loading .loader-container {
   background: #491314;
   transform-origin: center top 0px;
   transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.003, 0, -50, 0, 1);
-  -webkit-transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995);
-  -moz-transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995);
-  -o-transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995);
-  transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995);
+  -webkit-transition: all 500ms cubic-bezier(0.97, 0, 0.395, 0.995);
+  -moz-transition: all 500ms cubic-bezier(0.97, 0, 0.395, 0.995);
+  -o-transition: all 500ms cubic-bezier(0.97, 0, 0.395, 0.995);
+  transition: all 500ms cubic-bezier(0.97, 0, 0.395, 0.995);
   /* custom */
 }
 
@@ -1055,19 +1096,23 @@ body.is-loading .loader-container {
   margin-left: 0;
 }
 
-.boton .twist:nth-of-type(1):before, .boton .twist:nth-of-type(1):after {
+.boton .twist:nth-of-type(1):before,
+.boton .twist:nth-of-type(1):after {
   transition-delay: 0s;
 }
 
-.boton .twist:nth-of-type(2):before, .boton .twist:nth-of-type(2):after {
+.boton .twist:nth-of-type(2):before,
+.boton .twist:nth-of-type(2):after {
   transition-delay: 0.1s;
 }
 
-.boton .twist:nth-of-type(3):before, .boton .twist:nth-of-type(3):after {
+.boton .twist:nth-of-type(3):before,
+.boton .twist:nth-of-type(3):after {
   transition-delay: 0.2s;
 }
 
-.boton .twist:nth-of-type(4):before, .boton .twist:nth-of-type(4):after {
+.boton .twist:nth-of-type(4):before,
+.boton .twist:nth-of-type(4):after {
   transition-delay: 0.3s;
 }
 
@@ -1077,10 +1122,10 @@ body.is-loading .loader-container {
   bottom: 100%;
   transform-origin: center bottom 0px;
   transform: matrix3d(1, 0, 0, 0, 0, 0, -1, -0.003, 0, 1, 0, 0, 0, 0, 0, 1);
-  -webkit-transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995);
-  -moz-transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995);
-  -o-transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995);
-  transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995);
+  -webkit-transition: all 500ms cubic-bezier(0.97, 0, 0.395, 0.995);
+  -moz-transition: all 500ms cubic-bezier(0.97, 0, 0.395, 0.995);
+  -o-transition: all 500ms cubic-bezier(0.97, 0, 0.395, 0.995);
+  transition: all 500ms cubic-bezier(0.97, 0, 0.395, 0.995);
   /* custom */
 }
 
@@ -1094,10 +1139,10 @@ body.is-loading .loader-container {
   top: 100%;
   transform-origin: center top 0px;
   transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.003, 0, -50, 0, 1);
-  -webkit-transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995);
-  -moz-transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995);
-  -o-transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995);
-  transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995);
+  -webkit-transition: all 500ms cubic-bezier(0.97, 0, 0.395, 0.995);
+  -moz-transition: all 500ms cubic-bezier(0.97, 0, 0.395, 0.995);
+  -o-transition: all 500ms cubic-bezier(0.97, 0, 0.395, 0.995);
+  transition: all 500ms cubic-bezier(0.97, 0, 0.395, 0.995);
   /* custom */
 }
 
@@ -1109,9 +1154,9 @@ body.is-loading .loader-container {
   .wow {
     visibility: visible !important;
     -webkit-animation: none !important;
-       -moz-animation: none !important;
-         -o-animation: none !important;
-        -ms-animation: none !important;
-            animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
   }
 }

@@ -153,7 +153,7 @@ function TextAnalyzerEditor() {
                 ins.elem.boxes.summaryContent.innerHTML = val;
                 break;
             case 'various':
-                w = 'undefined' !== typeof val.language ? '<li><label>' + i18n.Languague + ':</label>' + val.language + '</li>' : '';
+                w = 'undefined' !== typeof val.language ? '<li><label>' + i18n.Language + ':</label>' + val.language + '</li>' : '';
                 w += 'undefined' !== typeof val.category ? '<li><label>' + i18n.Category + ':</label>' + val.category + '</li>' : '';
                 w += 'undefined' !== typeof val.emotion_name ? '<li><label>' + 'Emotion' + ':</label>' + val.emotion_name + '</li>' : '';
                 w += 'undefined' !== typeof val.subjectivity ? '<li><label>' + 'Subjectivity' + ':</label>' + val.subjectivity + '% </li>' : '';
